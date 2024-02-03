@@ -8,8 +8,8 @@ plugins {
     id("kotlin-parcelize")
 }
 
-val managerVersionCode: Int by rootProject.extra
-val managerVersionName: String by rootProject.extra
+val managerVersionCode = 10000
+val managerVersionName = "1.0"
 
 apksign {
     storeFileProperty = "KEYSTORE_FILE"

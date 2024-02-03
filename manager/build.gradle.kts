@@ -39,39 +39,11 @@ val androidBuildToolsVersion = "33.0.2"
 val androidCompileNdkVersion = "25.2.9519653"
 val androidSourceCompatibility = JavaVersion.VERSION_17
 val androidTargetCompatibility = JavaVersion.VERSION_17
-val managerVersionCode by extra(getVersionCode())
-val managerVersionName by extra(getVersionName())
+val managerVersionCode = 10000
+val managerVersionName = "1.0"
 
 tasks.register<Delete>("clean") {
     delete(rootProject.buildDir)
-}
-
-fun getGitCommitCount(): Int {
-    val out = ByteArrayOutputStream()
-    exec {
-        commandLine("git", "rev-list", "--count", "HEAD")
-        standardOutput = out
-    }
-    return out.toString().trim().toInt()
-}
-
-fun getGitDescribe(): String {
-    val out = ByteArrayOutputStream()
-    exec {
-        commandLine("git", "describe", "--tags", "--always")
-        standardOutput = out
-    }
-    return out.toString().trim()
-}
-
-fun getVersionCode(): Int {
-    val commitCount = getGitCommitCount()
-    val major = 1
-    return major * 10000 + commitCount + 200
-}
-
-fun getVersionName(): String {
-    return getGitDescribe()
 }
 
 subprojects {
