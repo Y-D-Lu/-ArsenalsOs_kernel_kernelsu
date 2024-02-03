@@ -2,8 +2,8 @@
 // Created by weishu on 2022/12/9.
 //
 
-#ifndef KERNELSU_KSU_H
-#define KERNELSU_KSU_H
+#ifndef ROOTARSENALS_KSU_H
+#define ROOTARSENALS_KSU_H
 
 #include <linux/capability.h>
 
@@ -77,4 +77,4 @@ bool set_app_profile(const app_profile *profile);
 
 bool get_app_profile(p_key_t key, app_profile *profile);
 
-#endif //KERNELSU_KSU_H
+#endif //ROOTARSENALS_KSU_H

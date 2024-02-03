@@ -4,7 +4,7 @@
     <string name="home_module_count">Moduler: %d</string>
     <string name="home_unsupported">Ikke understøttet</string>
     <string name="home_kernel">Kernel</string>
-    <string name="home_unsupported_reason">KernelSU understøtter kun GKI kernels</string>
+    <string name="home_unsupported_reason">RootArsenals understøtter kun GKI kernels</string>
     <string name="home_manager_version">Manager Version</string>
     <string name="home_selinux_status">SELinux-status</string>
     <string name="selinux_status_disabled">Deaktiveret</string>
@@ -30,9 +30,9 @@
     <string name="send_log">Send Log</string>
     <string name="safe_mode">Sikker tilstand</string>
     <string name="reboot_to_apply">Genstart for at tage effekt</string>
-    <string name="home_learn_kernelsu">Lær KernelSU</string>
-    <string name="home_learn_kernelsu_url">https://kernelsu.org/guide/what-is-kernelsu.html</string>
-    <string name="home_click_to_learn_kernelsu">Lær hvordan man installerer KernelSU og moduler</string>
+    <string name="home_learn_rootarsenals">Lær RootArsenals</string>
+    <string name="home_learn_rootarsenals_url">https://rootarsenals.org/guide/what-is-rootarsenals.html</string>
+    <string name="home_click_to_learn_rootarsenals">Lær hvordan man installerer RootArsenals og moduler</string>
     <string name="about_source_code">Se source koden ved %1$s<br/>Deltage i vores %2$s kanal</string>
     <string name="profile_default">Standard</string>
     <string name="profile_template">Skabelon</string>
@@ -44,7 +44,7 @@
     <string name="profile_selinux_context">SELinux-kontext</string>
     <string name="profile_umount_modules">Afmonteret moduler</string>
     <string name="settings_umount_modules_default">Afmontere moduler som standard</string>
-    <string name="profile_umount_modules_summary">Aktivering af denne indstilling vil tillade KernelSU at gendanne hvilken som helst modificeret filer af modulet for denne applikation.</string>
+    <string name="profile_umount_modules_summary">Aktivering af denne indstilling vil tillade RootArsenals at gendanne hvilken som helst modificeret filer af modulet for denne applikation.</string>
     <string name="module_update">Opdatering</string>
     <string name="module_downloading">Downloader modulet: %s</string>
     <string name="new_version_available">Ny version: %s er tilgængelig, kilk for at downloade</string>
@@ -69,7 +69,7 @@
     <string name="show_system_apps">Vis system-apps</string>
     <string name="module_magisk_conflict">Moduler er deaktiveret, fordi der er konflikt med Magiskes!</string>
     <string name="home_support_title">Støt Os</string>
-    <string name="home_support_content">KernelSU er, og vil altid være gratis og open source. Du kan stadig vise os din støtte ved at donere.</string>
+    <string name="home_support_content">RootArsenals er, og vil altid være gratis og open source. Du kan stadig vise os din støtte ved at donere.</string>
     <string name="profile_custom">Brugerdefineret</string>
     <string name="profile_name">Profilnavn</string>
     <string name="profile_namespace_individual">Individuel</string>
@@ -78,5 +78,5 @@
     <string name="profile_selinux_domain">Domæne</string>
     <string name="profile_selinux_rules">Regler</string>
     <string name="restart_app">Genstart</string>
-    <string name="require_kernel_version">Den nuværende KernelSU version %d er for lav til manageren for at fungere ordentligt. Opgrader til version %d eller højere!</string>
+    <string name="require_kernel_version">Den nuværende RootArsenals version %d er for lav til manageren for at fungere ordentligt. Opgrader til version %d eller højere!</string>
 </resources>

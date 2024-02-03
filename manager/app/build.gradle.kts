@@ -20,7 +20,7 @@ apksign {
 }
 
 android {
-    namespace = "me.weishu.kernelsu"
+    namespace = "cn.arsenals.rootarsenals"
 
     val signFile = rootProject.file("sign.properties")
     val config = let {
@@ -77,7 +77,7 @@ android {
     applicationVariants.all {
         outputs.forEach {
             val output = it as BaseVariantOutputImpl
-            output.outputFileName = "KernelSU_${managerVersionName}_${managerVersionCode}-$name.apk"
+            output.outputFileName = "RootArsenals_${managerVersionName}_${managerVersionCode}-$name.apk"
         }
 
         kotlin.sourceSets {

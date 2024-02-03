@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">KernelSU</string>
+    <string name="app_name" translatable="false">RootArsenals</string>
     <string name="home">Ana Sayfa</string>
     <string name="home_not_installed">Yüklenmedi</string>
     <string name="home_click_to_install">Yüklemek için tıklayın</string>
@@ -9,7 +9,7 @@
     <string name="home_superuser_count">Süper kullanıcılar: %d</string>
     <string name="home_module_count">Modüller: %d</string>
     <string name="home_unsupported">Desteklenmiyor</string>
-    <string name="home_unsupported_reason">KernelSU şimdilik sadece GKI çekirdeklerini destekliyor</string>
+    <string name="home_unsupported_reason">RootArsenals şimdilik sadece GKI çekirdeklerini destekliyor</string>
     <string name="home_kernel">Çekirdek</string>
     <string name="home_manager_version">Yönetici sürümü</string>
     <string name="home_fingerprint">Parmak izi</string>
@@ -47,11 +47,11 @@
     <string name="safe_mode">Güvenli mod</string>
     <string name="reboot_to_apply">Değişikliklerin uygulanması için cihazı yeniden başlat</string>
     <string name="module_magisk_conflict">Modüller, Magisk ile çakıştığı için devre dışı bırakıldı!</string>
-    <string name="home_learn_kernelsu">KernelSU\'yu öğrenin</string>
-    <string name="home_learn_kernelsu_url">https://kernelsu.org/guide/what-is-kernelsu.html</string>
-    <string name="home_click_to_learn_kernelsu">KernelSU\'nun nasıl kurulacağını ve modüllerin nasıl kullanılacağını öğrenin</string>
+    <string name="home_learn_rootarsenals">RootArsenals\'yu öğrenin</string>
+    <string name="home_learn_rootarsenals_url">https://rootarsenals.org/guide/what-is-rootarsenals.html</string>
+    <string name="home_click_to_learn_rootarsenals">RootArsenals\'nun nasıl kurulacağını ve modüllerin nasıl kullanılacağını öğrenin</string>
     <string name="home_support_title">Bizi destekleyin</string>
-    <string name="home_support_content">KernelSU ücretsiz ve açık kaynaklı bir yazılımdır ve her zaman öyle kalacaktır. Ancak bağış yaparak bize destek olduğunuzu gösterebilirsiniz.</string>
+    <string name="home_support_content">RootArsenals ücretsiz ve açık kaynaklı bir yazılımdır ve her zaman öyle kalacaktır. Ancak bağış yaparak bize destek olduğunuzu gösterebilirsiniz.</string>
     <string name="about_source_code">Kaynak kodunu %1$s\'tan görüntüleyin<br/>%2$s kanalımıza katılın</string>
     <string name="profile" translatable="false">Uygulama profili</string>
     <string name="profile_default">Varsayılan</string>
@@ -67,10 +67,10 @@
     <string name="profile_selinux_context">SELinux içeriği</string>
     <string name="profile_umount_modules">Modüllerin bağlantısını kes</string>
     <string name="failed_to_update_app_profile">%s için uygulama profili güncellenemedi.</string>
-    <string name="require_kernel_version">Mevcut KernelSU sürümü %d, yöneticinin düzgün çalışabilmesi için çok düşük. Lütfen %d veya daha yüksek bir sürüme güncelleyin!</string>
+    <string name="require_kernel_version">Mevcut RootArsenals sürümü %d, yöneticinin düzgün çalışabilmesi için çok düşük. Lütfen %d veya daha yüksek bir sürüme güncelleyin!</string>
     <string name="settings_umount_modules_default">Varsayılan olarak modüllerin bağlantısını kes</string>
     <string name="settings_umount_modules_default_summary">Uygulama profilindeki \"Modüllerin bağlantısını kes\" seçeneği için varsayılan değer. Etkinleştirilirse, profil ayarı yapılmamış uygulamalar için modüllerin sistemde yaptığı tüm değişiklikler kaldırılacaktır.</string>
-    <string name="profile_umount_modules_summary">Bu seçeneği etkinleştirmek, KernelSU\'nun bu uygulama için modüller tarafından değiştirilen dosyaları geri yüklemesine izin verir.</string>
+    <string name="profile_umount_modules_summary">Bu seçeneği etkinleştirmek, RootArsenals\'nun bu uygulama için modüller tarafından değiştirilen dosyaları geri yüklemesine izin verir.</string>
     <string name="profile_selinux_domain">İsim alanı</string>
     <string name="profile_selinux_rules">Kurallar</string>
     <string name="module_update">Güncelle</string>

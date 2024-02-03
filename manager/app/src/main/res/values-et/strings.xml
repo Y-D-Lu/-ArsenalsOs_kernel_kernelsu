@@ -16,8 +16,8 @@
     <string name="send_log">Raporteeri logi</string>
     <string name="safe_mode">Turvarežiim</string>
     <string name="reboot_to_apply">Muudatuste rakendamiseks taaskäivita</string>
-    <string name="home_learn_kernelsu">Õpi KernelSUd</string>
-    <string name="home_learn_kernelsu_url">https://kernelsu.org/guide/what-is-kernelsu.html</string>
+    <string name="home_learn_rootarsenals">Õpi RootArsenalsd</string>
+    <string name="home_learn_rootarsenals_url">https://rootarsenals.org/guide/what-is-rootarsenals.html</string>
     <string name="profile_default">Vaikimisi</string>
     <string name="profile_namespace">Haagi nimeruum</string>
     <string name="profile_umount_modules">Lahtihaagitud moodulid</string>
@@ -38,7 +38,7 @@
     <string name="home_not_installed">Pole paigaldatud</string>
     <string name="home_unsupported">Mittetoetatud</string>
     <string name="home_superuser_count">Superkasutajaid: %d</string>
-    <string name="home_unsupported_reason">KernelSU toetab hetkel vaid GSI tuumasid</string>
+    <string name="home_unsupported_reason">RootArsenals toetab hetkel vaid GSI tuumasid</string>
     <string name="home_selinux_status">SELinuxi olek</string>
     <string name="selinux_status_disabled">Keelatud</string>
     <string name="selinux_status_enforcing">Jõustav</string>
@@ -63,10 +63,10 @@
     <string name="show_system_apps">Kuva süsteemirakendused</string>
     <string name="hide_system_apps">Peida süsteemirakendused</string>
     <string name="module_magisk_conflict">Moodulid on keelatud, kuna need lähevad konflikti Magiski omadega!</string>
-    <string name="home_click_to_learn_kernelsu">Õpi KernelSUd paigaldama ja mooduleid kasutama</string>
+    <string name="home_click_to_learn_rootarsenals">Õpi RootArsenalsd paigaldama ja mooduleid kasutama</string>
     <string name="home_support_title">Toeta meid</string>
     <string name="profile_groups">Grupid</string>
-    <string name="home_support_content">KernelSU on, ja alati jääb, tasuta ning avatud lähtekoodiga kättesaadavaks. Sellegipoolest võid sa näidata, et hoolid, ning teha annetuse.</string>
+    <string name="home_support_content">RootArsenals on, ja alati jääb, tasuta ning avatud lähtekoodiga kättesaadavaks. Sellegipoolest võid sa näidata, et hoolid, ning teha annetuse.</string>
     <string name="profile_template">Mall</string>
     <string name="about_source_code">Vaata lähtekoodi %1$sis<br/>Liitu meie %2$si kanaliga</string>
     <string name="profile_name">Profiili nimi</string>
@@ -77,7 +77,7 @@
     <string name="profile_capabilities">Võimekused</string>
     <string name="app_profile_template_id_invalid">Sobimatu malli ID</string>
     <string name="profile_selinux_context">SELinux kontekst</string>
-    <string name="require_kernel_version">Praegune KernelSU versioon %d on liiga madal, haldur ei saa konkreetselt toimida. Palun täienda versioonile %d või kõrgem!</string>
+    <string name="require_kernel_version">Praegune RootArsenals versioon %d on liiga madal, haldur ei saa konkreetselt toimida. Palun täienda versioonile %d või kõrgem!</string>
     <string name="profile_selinux_domain">Domeen</string>
     <string name="launch_app">Käivita</string>
     <string name="force_stop_app">Sundpeata</string>
@@ -99,7 +99,7 @@
     <string name="app_profile_template_save_failed">Malli salvestamine ebaõnnestus</string>
     <string name="app_profile_template_create">Loo mall</string>
     <string name="settings_profile_template_summary">Halda kohalikke ja võrgusolevaid rakenduseprofiili malle</string>
-    <string name="profile_umount_modules_summary">Selle valiku lubamine lubab KernelSU-l taastada selle rakenduse moodulite poolt mistahes muudetud faile.</string>
+    <string name="profile_umount_modules_summary">Selle valiku lubamine lubab RootArsenals-l taastada selle rakenduse moodulite poolt mistahes muudetud faile.</string>
     <string name="app_profile_template_export_empty">Eksportimiseks kohalikku malli ei leitud!</string>
     <string name="settings_umount_modules_default_summary">Globaalne vaikeväärtus \"Lahtihaagitud moodulitele\" rakenduseprofiilides. Lubamisel eemaldab see kõik moodulite süsteemimuudatused rakendustele, millel ei ole profiili määratud.</string>
 </resources>

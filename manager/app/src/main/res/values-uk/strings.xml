@@ -8,7 +8,7 @@
     <string name="home_superuser_count">Суперкористувачі: %d</string>
     <string name="home_module_count">Модулі: %d</string>
     <string name="home_unsupported">Не підтримується</string>
-    <string name="home_unsupported_reason">KernelSU підтримує лише GKI ядра на данний момент</string>
+    <string name="home_unsupported_reason">RootArsenals підтримує лише GKI ядра на данний момент</string>
     <string name="home_kernel">Ядро</string>
     <string name="home_manager_version">Версія менеджера</string>
     <string name="home_fingerprint">Відбиток</string>
@@ -46,11 +46,11 @@
     <string name="safe_mode">Безпечний режим</string>
     <string name="reboot_to_apply">Перезавантажте, щоб застосувати</string>
     <string name="module_magisk_conflict">Модулі вимкнено, оскільки вони конфліктують із модулями Magisk!</string>
-    <string name="home_learn_kernelsu">Дізнайтеся про KernelSU</string>
-    <string name="home_learn_kernelsu_url">https://kernelsu.org/guide/what-is-kernelsu.html</string>
-    <string name="home_click_to_learn_kernelsu">Дізнайтеся, як інсталювати KernelSU і використовувати модулі</string>
+    <string name="home_learn_rootarsenals">Дізнайтеся про RootArsenals</string>
+    <string name="home_learn_rootarsenals_url">https://rootarsenals.org/guide/what-is-rootarsenals.html</string>
+    <string name="home_click_to_learn_rootarsenals">Дізнайтеся, як інсталювати RootArsenals і використовувати модулі</string>
     <string name="home_support_title">Підтримати нас</string>
-    <string name="home_support_content">KernelSU є, і завжди буде безкоштовним та з відкритим кодом. Однак, якщо вам не байдуже, можете зробити невеличке пожертвування.</string>
+    <string name="home_support_content">RootArsenals є, і завжди буде безкоштовним та з відкритим кодом. Однак, якщо вам не байдуже, можете зробити невеличке пожертвування.</string>
     <string name="about_source_code"><![CDATA[Переглянути вихідний код на %1$s<br/>Приєднуйтесь до нашого каналу %2$s]]></string>
     <string name="profile">Профіль додатка</string>
     <string name="profile_default">Типовий</string>
@@ -68,7 +68,7 @@
     <string name="failed_to_update_app_profile">Не вдалося оновити профіль додатка для %s</string>
     <string name="settings_umount_modules_default">Розмонтувати модулі за замовчуванням</string>
     <string name="settings_umount_modules_default_summary">Загальне значення за замовчуванням для \"Розмонтувати модулі\" у профілях додатків. Якщо ввімкнено, буде видалено всі модифікації модулів у системі для додатків, які не мають встановленого профілю.</string>
-    <string name="profile_umount_modules_summary">Увімкнення даної опції дозволить KernelSU відновити для цього додатка будь-які файли, змінені модулями.</string>
+    <string name="profile_umount_modules_summary">Увімкнення даної опції дозволить RootArsenals відновити для цього додатка будь-які файли, змінені модулями.</string>
     <string name="profile_selinux_domain">Домен</string>
     <string name="profile_selinux_rules">Правила</string>
     <string name="module_update">Оновити</string>
@@ -80,7 +80,7 @@
     <string name="new_version_available">Нова версія: %s доступна, натисніть, щоб завантажити</string>
     <string name="failed_to_update_sepolicy">Не вдалося оновити правила SELinux для: %s</string>
     <string name="module_changelog">Журнал змін</string>
-    <string name="require_kernel_version">Поточна версія KernelSU %d занадто низька, щоб менеджер міг працювати належним чином. Будь ласка, оновіть до версії %d або вище!</string>
+    <string name="require_kernel_version">Поточна версія RootArsenals %d занадто низька, щоб менеджер міг працювати належним чином. Будь ласка, оновіть до версії %d або вище!</string>
     <string name="app_profile_template_import_success">Успішно імпортовано</string>
     <string name="app_profile_export_to_clipboard">Експортувати в буфер обміну</string>
     <string name="app_profile_template_export_empty">Неможливо знайти локальні шаблони для експорту!</string>

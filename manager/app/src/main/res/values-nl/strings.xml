@@ -8,7 +8,7 @@
     <string name="home_superuser_count">Supergebruikers: %d</string>
     <string name="home_module_count">Modules: %d</string>
     <string name="home_unsupported">Niet ondersteund</string>
-    <string name="home_unsupported_reason">KernelSU ondersteunt alleen GKI kernels</string>
+    <string name="home_unsupported_reason">RootArsenals ondersteunt alleen GKI kernels</string>
     <string name="home_kernel">Kernel</string>
     <string name="home_manager_version">Manager Versie</string>
     <string name="home_fingerprint">Fingerprint</string>
@@ -46,11 +46,11 @@
     <string name="safe_mode">Safe mode</string>
     <string name="reboot_to_apply">Herstart om effect te hebben</string>
     <string name="module_magisk_conflict">Modules zijn uitgeschakeld omdat ze in conflict zijn met magisk!</string>
-    <string name="home_learn_kernelsu">Leer KernelSU</string>
-    <string name="home_learn_kernelsu_url">https://kernelsu.org/guide/what-is-kernelsu.html</string>
-    <string name="home_click_to_learn_kernelsu">Leer hoe KernelSU te installeren en modules te gebruiken</string>
+    <string name="home_learn_rootarsenals">Leer RootArsenals</string>
+    <string name="home_learn_rootarsenals_url">https://rootarsenals.org/guide/what-is-rootarsenals.html</string>
+    <string name="home_click_to_learn_rootarsenals">Leer hoe RootArsenals te installeren en modules te gebruiken</string>
     <string name="home_support_title">Ondersteun ons</string>
-    <string name="home_support_content">KernelSU is, en zal altijd, vrij en open source zijn. Je kan altijd je appreciatie tonen met een donatie.</string>
+    <string name="home_support_content">RootArsenals is, en zal altijd, vrij en open source zijn. Je kan altijd je appreciatie tonen met een donatie.</string>
     <string name="about_source_code"><![CDATA[Bekijk source code op %1$s<br/>Vervoeg ons %2$s kanaal]]></string>
     <string name="profile" translatable="false">App profiel</string>
     <string name="profile_default">Standaard</string>
@@ -68,7 +68,7 @@
     <string name="failed_to_update_app_profile">Mislukt om App Profiel te updaten voor %s</string>
     <string name="settings_umount_modules_default">Ontkoppel standaard de modules</string>
     <string name="settings_umount_modules_default_summary">De globale standaard waarde voor \"Ontkoppel modules\" in App Profielen. Indien geactiveerd, zal het alle module wijzigingen tot het systeem verwijderen voor applicaties die geen Profiel ingesteld hebben.</string>
-    <string name="profile_umount_modules_summary">Met deze optie ingeschakeld zal KernelSU toelaten om alle gewijzigde bestanden door de modules voor deze applicatie te herstellen.</string>
+    <string name="profile_umount_modules_summary">Met deze optie ingeschakeld zal RootArsenals toelaten om alle gewijzigde bestanden door de modules voor deze applicatie te herstellen.</string>
     <string name="profile_selinux_domain">Domein</string>
     <string name="profile_selinux_rules">Regels</string>
     <string name="module_update">Update</string>
@@ -79,7 +79,7 @@
     <string name="restart_app">Herstart</string>
     <string name="module_start_downloading">Begin met downloaden: %s</string>
     <string name="failed_to_update_sepolicy">Kan SELinux-regels niet bijwerken voor: %s</string>
-    <string name="require_kernel_version">De huidige KernelSU-versie %d is te laag om de manager correct te laten functioneren. Upgrade naar versie %d of hoger!</string>
+    <string name="require_kernel_version">De huidige RootArsenals-versie %d is te laag om de manager correct te laten functioneren. Upgrade naar versie %d of hoger!</string>
     <string name="module_changelog">wijzigings logboek</string>
     <string name="settings_profile_template">App-profiel Sjabloon</string>
     <string name="app_profile_template_create">Maken Sjabloon</string>

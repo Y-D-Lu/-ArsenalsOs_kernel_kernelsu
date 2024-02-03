@@ -17,10 +17,10 @@
     <string name="module_overlay_fs_not_available">overlayfs nicht verfügbar, Modul kann nicht funktionieren!</string>
     <string name="about">Über</string>
     <string name="module_magisk_conflict">Module sind deaktiviert, weil es einen Konflikt mit Magisk gibt!</string>
-    <string name="home_learn_kernelsu_url">https://kernelsu.org/guide/what-is-kernelsu.html</string>
-    <string name="home_click_to_learn_kernelsu">Verstehe, wie du KernelSU installieren und Module verwendest</string>
+    <string name="home_learn_rootarsenals_url">https://rootarsenals.org/guide/what-is-rootarsenals.html</string>
+    <string name="home_click_to_learn_rootarsenals">Verstehe, wie du RootArsenals installieren und Module verwendest</string>
     <string name="home_support_title">Unterstütze uns</string>
-    <string name="home_support_content">KernelSU ist und wird immer frei und quelloffen sein. Du kannst uns jedoch zeigen, dass du dich für uns interessierst, indem du eine Spende tätigst.</string>
+    <string name="home_support_content">RootArsenals ist und wird immer frei und quelloffen sein. Du kannst uns jedoch zeigen, dass du dich für uns interessierst, indem du eine Spende tätigst.</string>
     <string name="profile_selinux_context">SELinux-Kontext</string>
     <string name="settings_umount_modules_default">Module standardmäßig aushängen</string>
     <string name="settings_umount_modules_default_summary">Globaler Standardwert für \'Module aushängen\' in App-Profilen. Wenn er aktiviert ist, werden alle Moduländerungen im App-System entfernt, für die kein Profil festgelegt ist.</string>
@@ -33,7 +33,7 @@
     <string name="profile_namespace_individual">Individuell</string>
     <string name="profile_selinux_domain">Domain</string>
     <string name="module_update">Aktualisieren</string>
-    <string name="profile_umount_modules_summary">Wenn du diese Option aktivierst, kann KernelSU alle von den Modulen für diese App geänderten Dateien wiederherstellen.</string>
+    <string name="profile_umount_modules_summary">Wenn du diese Option aktivierst, kann RootArsenals alle von den Modulen für diese App geänderten Dateien wiederherstellen.</string>
     <string name="profile_selinux_rules">Regeln</string>
     <string name="module_start_downloading">Herunterladen starten: %s</string>
     <string name="failed_to_update_sepolicy">Fehler beim Aktualisieren der SELinux-Regeln für: %s</string>
@@ -60,7 +60,7 @@
     <string name="show_system_apps">System-Apps anzeigen</string>
     <string name="hide_system_apps">System-Apps ausblenden</string>
     <string name="send_log">Protokoll senden</string>
-    <string name="home_learn_kernelsu">KernelSU verstehen</string>
+    <string name="home_learn_rootarsenals">RootArsenals verstehen</string>
     <string name="safe_mode">Sicherer Modus</string>
     <string name="reboot_to_apply">Neu starten, damit die Effekte auftreten</string>
     <string name="about_source_code">Quellcode unter %1$s ansehen<br/>Unserem %2$s-Kanal beitreten</string>
@@ -71,7 +71,7 @@
     <string name="profile_umount_modules">Module aushängen</string>
     <string name="module_downloading">Modul herunterladen: %s</string>
     <string name="home_unsupported">Nicht unterstützt</string>
-    <string name="home_unsupported_reason">KernelSU unterstützt derzeit nur GKI-Kernel</string>
+    <string name="home_unsupported_reason">RootArsenals unterstützt derzeit nur GKI-Kernel</string>
     <string name="home_kernel">Kernel</string>
     <string name="home_fingerprint">Fingerabdruck</string>
     <string name="module_install">Installieren</string>

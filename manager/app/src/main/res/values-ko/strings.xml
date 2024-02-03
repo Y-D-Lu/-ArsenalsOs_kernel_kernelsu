@@ -8,7 +8,7 @@
     <string name="home_superuser_count">루트 권한: %d개</string>
     <string name="home_module_count">설치된 모듈: %d개</string>
     <string name="home_unsupported">지원되지 않음</string>
-    <string name="home_unsupported_reason">KernelSU는 현재 GKI 커널만 지원합니다</string>
+    <string name="home_unsupported_reason">RootArsenals는 현재 GKI 커널만 지원합니다</string>
     <string name="home_kernel">커널</string>
     <string name="home_manager_version">매니저 버전</string>
     <string name="home_fingerprint">빌드 정보</string>
@@ -46,12 +46,12 @@
     <string name="safe_mode">안전 모드</string>
     <string name="reboot_to_apply">다시 시작하여 변경 사항 적용</string>
     <string name="module_magisk_conflict">Magisk와의 충돌로 인해 모듈을 사용할 수 없습니다!</string>
-    <string name="home_learn_kernelsu">KernelSU 알아보기</string>
-    <string name="home_click_to_learn_kernelsu">KernelSU 설치 방법과 모듈 사용 방법을 확인합니다</string>
+    <string name="home_learn_rootarsenals">RootArsenals 알아보기</string>
+    <string name="home_click_to_learn_rootarsenals">RootArsenals 설치 방법과 모듈 사용 방법을 확인합니다</string>
     <string name="home_support_title">지원이 필요합니다</string>
-    <string name="home_support_content">KernelSU는 지금도, 앞으로도 항상 무료이며 오픈 소스로 유지됩니다. 기부를 통해 여러분의 관심을 보여주세요.</string>
+    <string name="home_support_content">RootArsenals는 지금도, 앞으로도 항상 무료이며 오픈 소스로 유지됩니다. 기부를 통해 여러분의 관심을 보여주세요.</string>
     <string name="about_source_code"><![CDATA[%1$s에서 소스 코드 보기<br/>%2$s 채널 참가하기]]></string>
-    <string name="home_learn_kernelsu_url">https://kernelsu.org/guide/what-is-kernelsu.html</string>
+    <string name="home_learn_rootarsenals_url">https://rootarsenals.org/guide/what-is-rootarsenals.html</string>
     <string name="settings_umount_modules_default_summary">앱 프로필 메뉴의 \"모듈 사용 해제\" 설정에 대한 전역 기본값을 설정합니다. 활성화 시, 개별 프로필이 설정되지 않은 앱은 시스템에 대한 모듈의 모든 수정사항이 적용되지 않습니다.</string>
     <string name="restart_app">다시 시작</string>
     <string name="profile_selinux_rules">규칙</string>
@@ -72,7 +72,7 @@
     <string name="profile_capabilities">권한</string>
     <string name="failed_to_update_app_profile">%s에 대한 앱 프로필 업데이트 실패</string>
     <string name="settings_umount_modules_default">기본값으로 모듈 사용 해제</string>
-    <string name="profile_umount_modules_summary">이 옵션이 활성화되면, KernelSU는 이 애플리케이션에 대한 모듈의 모든 수정사항을 복구합니다.</string>
+    <string name="profile_umount_modules_summary">이 옵션이 활성화되면, RootArsenals는 이 애플리케이션에 대한 모듈의 모든 수정사항을 복구합니다.</string>
     <string name="module_update">업데이트</string>
     <string name="module_downloading">모듈 받는 중: %s</string>
     <string name="profile_selinux_domain">도메인</string>

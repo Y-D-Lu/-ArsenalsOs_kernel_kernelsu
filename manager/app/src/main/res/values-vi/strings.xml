@@ -8,16 +8,16 @@
     <string name="profile_groups">Nhóm</string>
     <string name="failed_to_update_app_profile">Không thể cập nhật Hồ sơ ứng dụng cho %s</string>
     <string name="settings_umount_modules_default">Ngắt mô-đun theo mặc định</string>
-    <string name="settings_umount_modules_default_summary">Giá trị mặc định của \"Ngắt mô-đun\" trong Cấu hình ứng dụng. Nếu bật, KernelSU sẽ khôi phục mọi tệp hệ thống đã sửa đổi bởi mô-đun cho các ứng dụng chưa thiết lập Cấu hình.</string>
+    <string name="settings_umount_modules_default_summary">Giá trị mặc định của \"Ngắt mô-đun\" trong Cấu hình ứng dụng. Nếu bật, RootArsenals sẽ khôi phục mọi tệp hệ thống đã sửa đổi bởi mô-đun cho các ứng dụng chưa thiết lập Cấu hình.</string>
     <string name="profile_umount_modules_summary">Bật tùy chọn này sẽ khôi phục mọi tệp đã sửa đổi bởi các mô-đun cho ứng dụng này.</string>
     <string name="module_update">Cập nhật</string>
     <string name="module_downloading">Đang tải xuống mô-đun: %s</string>
     <string name="module_start_downloading">Bắt đầu tải xuống: %s</string>
     <string name="new_version_available">Phiên bản mới: %s đã có, bấm để nâng cấp</string>
-    <string name="home_learn_kernelsu">Tìm hiểu KernelSU</string>
-    <string name="home_click_to_learn_kernelsu">Tìm hiểu cách cài đặt KernelSU và sử dụng các mô-đun</string>
+    <string name="home_learn_rootarsenals">Tìm hiểu RootArsenals</string>
+    <string name="home_click_to_learn_rootarsenals">Tìm hiểu cách cài đặt RootArsenals và sử dụng các mô-đun</string>
     <string name="home_support_title">Hỗ trợ chúng tôi</string>
-    <string name="home_support_content">KernelSU sẽ luôn luôn miễn phí và mã nguồn mở. Tuy nhiên bạn có thể ủng hộ chúng tôi bằng một khoản đóng góp nhỏ.</string>
+    <string name="home_support_content">RootArsenals sẽ luôn luôn miễn phí và mã nguồn mở. Tuy nhiên bạn có thể ủng hộ chúng tôi bằng một khoản đóng góp nhỏ.</string>
     <string name="about_source_code"><![CDATA[Xem mã nguồn tại %1$s<br/>Tham gia kênh %2$s của chúng tôi]]></string>
     <string name="module_magisk_conflict">Các mô-đun bị vô hiệu hóa vì chúng xung đột với Magisk!</string>
     <string name="module_uninstall_confirm">Bạn có muốn gỡ cài đặt mô-đun %s không\?</string>
@@ -28,7 +28,7 @@
     <string name="home_working">Đang hoạt động</string>
     <string name="home_working_version">Phiên bản: %d</string>
     <string name="home_unsupported">Không được hỗ trợ</string>
-    <string name="home_unsupported_reason">KernelSU hiện tại chỉ hỗ trợ kernel GKI</string>
+    <string name="home_unsupported_reason">RootArsenals hiện tại chỉ hỗ trợ kernel GKI</string>
     <string name="home_kernel">Kernel</string>
     <string name="home_manager_version">Phiên bản Manager</string>
     <string name="home_fingerprint">Fingerprint</string>
@@ -63,7 +63,7 @@
     <string name="hide_system_apps">Ẩn ứng dụng hệ thống</string>
     <string name="safe_mode">Chế độ an toàn</string>
     <string name="reboot_to_apply">Khởi động lại để có hiệu lực</string>
-    <string name="home_learn_kernelsu_url">https://kernelsu.org/vi_VN/guide/what-is-kernelsu.html</string>
+    <string name="home_learn_rootarsenals_url">https://rootarsenals.org/vi_VN/guide/what-is-rootarsenals.html</string>
     <string name="home_superuser_count">Số superuser: %d</string>
     <string name="home_module_count">Số mô-đun: %d</string>
     <string name="profile_selinux_domain">Phạm vi</string>
@@ -79,7 +79,7 @@
     <string name="profile_namespace_individual">Riêng</string>
     <string name="profile_selinux_context">SELinux context</string>
     <string name="profile_umount_modules">Ngắt mô-đun</string>
-    <string name="require_kernel_version">KernelSU phiên bản %d quá thấp để trình quản lý hoạt động, hãy cập nhật lên %d hoặc mới hơn!</string>
+    <string name="require_kernel_version">RootArsenals phiên bản %d quá thấp để trình quản lý hoạt động, hãy cập nhật lên %d hoặc mới hơn!</string>
     <string name="app_profile_template_import_success">Đã nhập thành công</string>
     <string name="app_profile_export_to_clipboard">Xuất từ khay nhớ tạm</string>
     <string name="app_profile_template_export_empty">Không thể tìm thấy mẫu cục bộ để xuất!</string>

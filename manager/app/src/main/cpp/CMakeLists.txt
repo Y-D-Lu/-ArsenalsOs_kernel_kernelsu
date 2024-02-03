@@ -5,9 +5,9 @@
 # Sets the minimum version of CMake required to build the native library.
 cmake_minimum_required(VERSION 3.18.1)
 
-project("kernelsu")
+project("rootarsenals")
 
-add_library(kernelsu
+add_library(rootarsenals
         SHARED
         jni.cc
         ksu.cc
@@ -15,4 +15,4 @@ add_library(kernelsu
 
 find_library(log-lib log)
 
-target_link_libraries(kernelsu ${log-lib})
+target_link_libraries(rootarsenals ${log-lib})

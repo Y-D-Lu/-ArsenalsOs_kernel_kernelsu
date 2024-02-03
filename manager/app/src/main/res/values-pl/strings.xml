@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">KernelSU</string>
+    <string name="app_name" translatable="false">RootArsenals</string>
     <string name="home">Strona główna</string>
     <string name="home_not_installed">Nie zainstalowano</string>
     <string name="home_click_to_install">Kliknij, aby zainstalować</string>
@@ -9,7 +9,7 @@
     <string name="home_superuser_count">Superużytkowników: %d</string>
     <string name="home_module_count">Modułów: %d</string>
     <string name="home_unsupported">Nieobsługiwany</string>
-    <string name="home_unsupported_reason">KernelSU obsługuje obecnie tylko jądra GKI</string>
+    <string name="home_unsupported_reason">RootArsenals obsługuje obecnie tylko jądra GKI</string>
     <string name="home_kernel">Jądro</string>
     <string name="home_manager_version">Wersja menedżera</string>
     <string name="home_fingerprint">Odcisk</string>
@@ -47,11 +47,11 @@
     <string name="safe_mode">Tryb bezpieczny</string>
     <string name="reboot_to_apply">Uruchom ponownie, aby zastosować zmiany</string>
     <string name="module_magisk_conflict">Moduły są wyłączone, ponieważ są w konflikcie z modułami Magiska!</string>
-    <string name="home_learn_kernelsu">Poznaj KernelSU</string>
-    <string name="home_learn_kernelsu_url">https://kernelsu.org/guide/what-is-kernelsu.html</string>
-    <string name="home_click_to_learn_kernelsu">Dowiedz się jak zainstalować KernelSU i jak korzystać z modułów.</string>
+    <string name="home_learn_rootarsenals">Poznaj RootArsenals</string>
+    <string name="home_learn_rootarsenals_url">https://rootarsenals.org/guide/what-is-rootarsenals.html</string>
+    <string name="home_click_to_learn_rootarsenals">Dowiedz się jak zainstalować RootArsenals i jak korzystać z modułów.</string>
     <string name="home_support_title">Wesprzyj nas</string>
-    <string name="home_support_content">KernelSU jest i zawsze będzie darmowy oraz otwarty. Niemniej jednak możesz nam pokazać, że Ci zależy, wysyłając darowiznę.</string>
+    <string name="home_support_content">RootArsenals jest i zawsze będzie darmowy oraz otwarty. Niemniej jednak możesz nam pokazać, że Ci zależy, wysyłając darowiznę.</string>
     <string name="about_source_code"><![CDATA[Przejrzyj kod źródłowy na %1$s<br/>Dołącz do kanału %2$s]]></string>
     <string name="profile" translatable="false">Profil aplikacji</string>
     <string name="profile_default">Domyślny</string>
@@ -69,7 +69,7 @@
     <string name="failed_to_update_app_profile">Nie udało się zaktualizować profilu aplikacji dla %s</string>
     <string name="settings_umount_modules_default">Domyślnie odmontuj moduły</string>
     <string name="settings_umount_modules_default_summary">Globalna wartość domyślna opcji \"Odmontuj moduły\" w profilach aplikacji. Jeśli jest włączona, odwraca wszystkie modyfikacje dokonane przez moduły dla aplikacji, które nie mają ustawionego profilu.</string>
-    <string name="profile_umount_modules_summary">Włączenie tej opcji umożliwi KernelSU przywrócenie wszelkich zmodyfikowanych plików przez moduły dla tej aplikacji.</string>
+    <string name="profile_umount_modules_summary">Włączenie tej opcji umożliwi RootArsenals przywrócenie wszelkich zmodyfikowanych plików przez moduły dla tej aplikacji.</string>
     <string name="profile_selinux_domain">Domena</string>
     <string name="profile_selinux_rules">Reguły</string>
     <string name="module_update">Zaktualizuj</string>
@@ -80,6 +80,6 @@
     <string name="force_stop_app">Wymuś zatrzymanie</string>
     <string name="restart_app">Restartuj</string>
     <string name="failed_to_update_sepolicy">Nie udało się zaktualizować reguł SELinux dla: %s</string>
-    <string name="require_kernel_version">Obecna wersja KernelSU %d jest zbyt stara, aby menedżer działał poprawnie. Prosimy o aktualizację do wersji %d lub nowszej!</string>
+    <string name="require_kernel_version">Obecna wersja RootArsenals %d jest zbyt stara, aby menedżer działał poprawnie. Prosimy o aktualizację do wersji %d lub nowszej!</string>
     <string name="module_changelog">Dziennik zmian</string>
 </resources>

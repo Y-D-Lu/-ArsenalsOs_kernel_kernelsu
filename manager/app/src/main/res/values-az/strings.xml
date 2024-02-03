@@ -8,7 +8,7 @@
     <string name="home_working">İşləyir</string>
     <string name="home_working_version">Versiya: %d</string>
     <string name="home_module_count">Modullar: %d</string>
-    <string name="home_unsupported_reason">Hal-hazırda KernelSU yalnız GKI nüvələrini dəstəkləyir</string>
+    <string name="home_unsupported_reason">Hal-hazırda RootArsenals yalnız GKI nüvələrini dəstəkləyir</string>
     <string name="home_unsupported">Dəstəklənmir</string>
     <string name="module_install">Yüklə</string>
     <string name="install">Yüklə</string>
@@ -46,14 +46,14 @@
     <string name="safe_mode">Təhlükəsiz rejimi</string>
     <string name="reboot_to_apply">Qüvvəyə minməsi üçün yenidən başlat</string>
     <string name="module_magisk_conflict">Modular deaktiv edilir,çünki o Magisk-in modulları ilə toqquşur!</string>
-    <string name="home_learn_kernelsu">KernelSU-yu öyrən</string>
-    <string name="home_learn_kernelsu_url">https://kernelsu.org/guide/what-is-kernelsu.html</string>
+    <string name="home_learn_rootarsenals">RootArsenals-yu öyrən</string>
+    <string name="home_learn_rootarsenals_url">https://rootarsenals.org/guide/what-is-rootarsenals.html</string>
     <string name="home_support_title">Bizi dəstəkləyin</string>
-    <string name="home_click_to_learn_kernelsu">KernelSU-yu necə quraşdırılacağını və modulların necə istifadə ediləcəyini öyrən</string>
+    <string name="home_click_to_learn_rootarsenals">RootArsenals-yu necə quraşdırılacağını və modulların necə istifadə ediləcəyini öyrən</string>
     <string name="profile_template">Şablon</string>
     <string name="profile_default">Defolt</string>
     <string name="profile_custom">Özəl</string>
-    <string name="home_support_content">KernelSU pulsuz və açıq mənbəlidir,həmişə belə olacaqdır. Bununla belə, ianə etməklə bizə qayğı göstərdiyinizi göstərə bilərsiniz.</string>
+    <string name="home_support_content">RootArsenals pulsuz və açıq mənbəlidir,həmişə belə olacaqdır. Bununla belə, ianə etməklə bizə qayğı göstərdiyinizi göstərə bilərsiniz.</string>
     <string name="about_source_code">Mənbə kodlarımıza baxın %1$s<br/>Kanalımıza %2$s qoşulun</string>
     <string name="profile_name">Profil adı</string>
     <string name="profile_capabilities">Bacarıqlar</string>
@@ -73,7 +73,7 @@
     <string name="module_start_downloading">Endirməni başlat: %s</string>
     <string name="new_version_available">Yeni versiya: %s əlçatandır, endirmək üçün toxunun</string>
     <string name="module_downloading">Modul yüklənir: %s</string>
-    <string name="profile_umount_modules_summary">Bu seçimi aktivləşdirmək KernelSU-ya bu proqram üçün modullar tərəfindən hər hansı dəyişdirilmiş faylları bərpa etməyə imkan verəcək.</string>
+    <string name="profile_umount_modules_summary">Bu seçimi aktivləşdirmək RootArsenals-ya bu proqram üçün modullar tərəfindən hər hansı dəyişdirilmiş faylları bərpa etməyə imkan verəcək.</string>
     <string name="launch_app">Aç</string>
     <string name="force_stop_app">Məcburi dayandır</string>
     <string name="restart_app">Yenidən başlat</string>
