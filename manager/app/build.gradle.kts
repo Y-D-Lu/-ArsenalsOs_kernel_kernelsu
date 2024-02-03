@@ -1,4 +1,5 @@
 import com.android.build.gradle.internal.api.BaseVariantOutputImpl
+import org.jetbrains.kotlin.konan.properties.Properties
 
 plugins {
     alias(libs.plugins.agp.app)
@@ -21,7 +22,22 @@ apksign {
 android {
     namespace = "me.weishu.kernelsu"
 
+    val signFile = rootProject.file("sign.properties")
+    val config = let {
+        val prop = Properties()
+        prop.load(signFile.inputStream())
+        signingConfigs.create("config") {
+            storeFile = file(prop.getProperty("KEYSTORE_FILE"))
+            storePassword = prop.getProperty("KEYSTORE_PASSWORD")
+            keyAlias = prop.getProperty("KEY_ALIAS")
+            keyPassword = prop.getProperty("KEY_PASSWORD")
+        }
+    }
+
     buildTypes {
+        all {
+            signingConfig = config
+        }
         release {
             isMinifyEnabled = true
             isShrinkResources = true
